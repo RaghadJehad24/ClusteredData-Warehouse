@@ -35,7 +35,7 @@ This project is a Spring Boot application designed to manage FX (Foreign Exchang
 
 1. Ensure Java 17 is installed.
 2. Navigate to the project directory.
-3. Run `java -jar target/ClusteredData-0.0.1-SNAPSHOT.jar` to start the application.
+3. Run `java -jar target/ClusteredData` to start the application.
 
 ## API Documentation
 
