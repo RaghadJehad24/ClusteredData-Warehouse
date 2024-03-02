@@ -22,6 +22,7 @@ public class FxDealController {
     private static final Logger logger = LoggerFactory.getLogger(FxDealController.class);
     private final FxDealService fxDealService;
 
+
     /**
      * Creates a new FxDeal record.
      *
