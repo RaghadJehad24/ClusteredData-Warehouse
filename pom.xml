@@ -80,6 +80,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>ClusteredData</finalName>
 	</build>
 
 </project>
