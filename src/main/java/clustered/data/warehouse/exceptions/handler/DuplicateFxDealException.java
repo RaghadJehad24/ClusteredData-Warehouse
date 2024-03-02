@@ -1,7 +1,10 @@
 package clustered.data.warehouse.exceptions.handler;
 
-public class DuplicateFxDealException extends RuntimeException {
+
+import org.springframework.http.HttpStatus;
+
+public class DuplicateFxDealException extends BaseException {
     public DuplicateFxDealException(String message) {
-        super(message);
+        super(message, HttpStatus.CONFLICT);
     }
 }

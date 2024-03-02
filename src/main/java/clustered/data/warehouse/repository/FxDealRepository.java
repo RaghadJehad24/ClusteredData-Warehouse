@@ -7,6 +7,7 @@ import java.util.Optional;
 
 public interface FxDealRepository extends JpaRepository<FxDeal, Long> {
     boolean existsByUniqueId(String uniqueId);
+
     Optional<FxDeal> findByUniqueId(String uniqueId);
 
 }
